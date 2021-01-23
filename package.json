@@ -1,0 +1,21 @@
+{
+  "name": "arc-example-typescript",
+  "version": "0.0.0",
+  "description": "An example of using TypeScript with Architect!",
+  "scripts": {
+    "start": "npx sandbox",
+    "prestart": "npm run build",
+    "deploy": "arc deploy",
+    "predeploy": "npm run build",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@architect/architect": "^8.4.6",
+    "@architect/functions": "^3.13.9",
+    "@tsconfig/node12": "^1.0.7",
+    "@types/architect__functions": "^3.13.0",
+    "typescript": "^4.1.3"
+  },
+  "author": "Scott Willeke <scott@willeke.com>",
+  "license": "Apache-2.0"
+}
